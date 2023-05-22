@@ -1,0 +1,134 @@
+.content{
+	width: 99%;
+	text-align: center;
+}
+
+/**Movil**/
+@media (max-width: 767px) {
+	.Desktop {
+		display: none;
+	}
+	.Tablet {
+		display: none;
+	}
+
+}
+
+/**Tablet**/
+@media (max-width: 768px) and (max-width: 990px) {
+	.Desktop {
+		display: none;
+	}
+	.Movil {
+		display: none;
+	}
+
+}
+
+/**Escritorio**/
+@media (min-width: 991px) {
+	.Tablet {
+		display: none;
+	}
+	.Movil {
+		display: none;
+	}
+
+}
+
++{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans' , sans-serif;
+}
+h1 {
+	text-align: center;
+	background-color: Black;
+	color: white;
+	padding: 20px;	
+}
+h2 {
+ text-align: center;
+ background-color: black;
+ color: white;
+ padding: 20px;
+}
+nav ul {
+	background-color: #757575;
+	width: 100%;
+	list-style-type: none;
+	text-align: center;
+}
+nav li {
+	display: inline-flex;
+}
+nav a {
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+	width: 150px;
+}
+nav li :haver {
+	background-color: black;
+}
+.container-form{
+	width: 100%;
+	max-width: 1100px;
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 50px;
+	margin-top: 90px;
+}
+.container-form h2{
+	margin-bottom: 15px;
+	font-size: 35px;
+}
+.container-form p{
+	font-size: 17px;
+	line-height: 1.6;
+	margin-bottom: 36px;
+}
+.container-form a{
+	font-size: 17px;
+	display: inline-block;
+	text-decoration: none;
+	width: 100%;
+	margin-bottom: 15px;
+	color: black;
+	font-weight: 700;
+}
+.container-form a i{
+	color: orange;
+	margin-right: 10px;
+}
+.container-form .campo, textarea{
+	width: 100%;
+	padding: 15px 10px;
+	font-size: 15px;
+	border: 1px solid #dbdbdb;
+	margin-bottom: 20px;
+	border-radius: 3px;
+	outline: 0px;
+}
+.container-form form textarea{
+	max-width: 530px;
+	min-width: 530px;
+	min-height: 140px;
+	min-height: 150px;
+}
+.container-form .btn-enviar{
+	padding: 15px;
+	font-size: 16px;
+	border: none;
+	outline: 0px;
+	background: orange;
+	color: white;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: all 300ms ease;
+}
+.container-form .btn-enviar{
+	background: #e39403;
+}
